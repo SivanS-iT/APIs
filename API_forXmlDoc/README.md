@@ -8,7 +8,7 @@ I made an API call and in the JSON code you can change certain things that you c
 First you need to enter file path of xml file!
 
 Example of JSON file as REQUEST;
-```
+``` JSON
 {
   "channelRequest": [
     {
