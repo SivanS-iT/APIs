@@ -1,0 +1,55 @@
+<Trainging>
+    <TestItemName>Trainging</TestItemName>
+    <TestResultId>92347108</TestResultId>
+	<TestResult>Passed</TestResult>
+	<MeasurementChannels>
+	  <MeasurementChannel ChannelName="Train1">
+		<TestResult>Passed</TestResult>
+		<SpectralAnalysis>
+		  <TestResult>Passed</TestResult>
+		  <Peak>233334</Peak>
+		</SpectralAnalysis>
+		<Kurtosis>
+		  <TestResult>Passed</TestResult>
+		</Kurtosis>
+		<OrderTracking>
+		  <OrderTrackDefinition>
+			<Name>1</Name>
+			<TestResult>Passed</TestResult>
+		  </OrderTrackDefinition>
+		  <OrderTrackDefinition>
+			<Name>2</Name>
+			<TestResult>Passed</TestResult>
+		  </OrderTrackDefinition>
+		  <OrderTrackDefinition>
+			<Name>3</Name>
+			<TestResult>Passed</TestResult>
+		  </OrderTrackDefinition>
+		</OrderTracking>
+	  </MeasurementChannel>
+	  <MeasurementChannel ChannelName="Train1">
+		<TestResult>Failed</TestResult>
+		<SpectralAnalysis>
+		  <TestResult>Failed</TestResult>
+		  <PeakHoldNOK>234</PeakHoldNOK>
+		</SpectralAnalysis>
+		<Kurtosis>
+		  <TestResult>Failed</TestResult>
+		</Kurtosis>
+		<OrderTracking>
+		  <OrderTrackDefinition>
+			<Name>1</Name>
+			<TestResult>Passed</TestResult>
+		  </OrderTrackDefinition>
+		  <OrderTrackDefinition>
+			<Name>2</Name>
+			<TestResult>Passed</TestResult>
+		  </OrderTrackDefinition>
+		  <OrderTrackDefinition>
+			<Name>3</Name>
+			<TestResult>Passed</TestResult>
+		  </OrderTrackDefinition>
+		</OrderTracking>
+	  </MeasurementChannel>
+	</MeasurementChannels>
+</Trainging>
