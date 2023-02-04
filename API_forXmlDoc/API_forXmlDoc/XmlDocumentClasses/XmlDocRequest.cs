@@ -2,7 +2,6 @@
 {
     public class XmlDocRequest
     {
-        public string FilePath { get; set; }
         public List<ChannelRequest> ChannelRequest { get; set; }
 
         public XmlDocRequest()
