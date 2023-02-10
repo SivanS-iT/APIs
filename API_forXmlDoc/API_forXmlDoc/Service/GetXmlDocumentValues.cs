@@ -6,10 +6,16 @@ namespace API_forXmlDoc.Service
 {
     public class GetXmlDocumentValues
     {
-        public static XmlDocResponse GetValues(XmlDocRequest request, string filePath)
+        private readonly ILogger<GetXmlDocumentValues> logger;
+        private readonly XmlDocHelper helper;
+        public GetXmlDocumentValues( XmlDocHelper helper, ILogger<GetXmlDocumentValues> logger)
         {
+            this.helper = helper;
+            this.logger = logger;
+        }
 
-            
+        public XmlDocResponse GetValues(XmlDocRequest request, string filePath)
+        {
             var xmlDocResponse = new XmlDocResponse();
             
             if (System.IO.File.Exists(filePath) && Path.GetExtension(filePath) == ".xml")
@@ -43,19 +49,19 @@ namespace API_forXmlDoc.Service
                             xmlDocResponseAdd.ChannelName = nodeAtribut;
 
                             // Calling methode that checks if the Test Results are true or false
-                            xmlDocResponseAdd.TestResult = GetReilhoferResult(request.ChannelRequest[i].GetTestResult, node.SelectSingleNode("TestResult").InnerText, xmlDocResponseAdd.TestResult);
-                            xmlDocResponseAdd.SpectralAnalysisResult = GetReilhoferResult(request.ChannelRequest[i].GetKurtosisResult, node.SelectSingleNode("SpectralAnalysis/TestResult").InnerText, xmlDocResponseAdd.SpectralAnalysisResult);
+                            xmlDocResponseAdd.TestResult = helper.GetReilhoferResult(request.ChannelRequest[i].GetTestResult, node.SelectSingleNode("TestResult").InnerText, xmlDocResponseAdd.TestResult);
+                            xmlDocResponseAdd.SpectralAnalysisResult = helper.GetReilhoferResult(request.ChannelRequest[i].GetKurtosisResult, node.SelectSingleNode("SpectralAnalysis/TestResult").InnerText, xmlDocResponseAdd.SpectralAnalysisResult);
                             if (request.ChannelRequest[i].GetSpectralAnalysisResult == true && node.SelectSingleNode("SpectralAnalysis/Peak") != null)
                             {
                                 xmlDocResponseAdd.Peak = Convert.ToInt32(node.SelectSingleNode("SpectralAnalysis/Peak").InnerText);
-                                xmlDocResponseAdd.KurtosisResult = GetReilhoferResult(request.ChannelRequest[i].GetSpectralAnalysisResult, node.SelectSingleNode("Kurtosis/TestResult").InnerText, xmlDocResponseAdd.KurtosisResult);
+                                xmlDocResponseAdd.KurtosisResult = helper.GetReilhoferResult(request.ChannelRequest[i].GetSpectralAnalysisResult, node.SelectSingleNode("Kurtosis/TestResult").InnerText, xmlDocResponseAdd.KurtosisResult);
                             }
                             xmlDocResponse.MeasurementChannel.Add(xmlDocResponseAdd);
 
                             // Getting back orderTrackDefinition List that with requested numbers!
                             if (request.ChannelRequest[i].GetOrderTrackDefinitionResult == true)
                             {
-                                GetOrderTrackDefinitions(node, request, xmlDocResponse, i);
+                                helper.GetOrderTrackDefinitions(node, request, xmlDocResponse, i);
                             }
                         }
                     }
@@ -65,48 +71,6 @@ namespace API_forXmlDoc.Service
             return xmlDocResponse;
         }
 
-        public static bool GetReilhoferResult(bool testResult, string selectedNode, bool xmlDocResponseAdd)
-        {
-            // getKurtosisResult
-            if (testResult == true)
-            {
-                if (selectedNode.Contains("Failed"))
-                    xmlDocResponseAdd = false;
-                else xmlDocResponseAdd = true;
-            }
-            else xmlDocResponseAdd = false;
-
-            return xmlDocResponseAdd;
-        }
-
-        public static XmlDocResponse GetOrderTrackDefinitions(XmlNode node, XmlDocRequest request, XmlDocResponse xmlDocResponse, int i)
-        {
-            // Getting back orderTrackDefinition List that with requested numbers!
-            XmlNodeList orderTrackingDefinicions = node.SelectNodes("OrderTracking/OrderTrackDefinition");
-
-            for (int j = 0; j < request.ChannelRequest[i].GetOrderTrackDefinitionResultByName.Count; j++)
-            {
-                foreach (XmlNode nodeOrderTrack in orderTrackingDefinicions)
-                {
-                    var orderTrackDefinitionList = new OrderTrackDefinition();
-
-                    string nameOrderTrack = nodeOrderTrack.SelectSingleNode("Name").InnerText.ToString();
-                    string requestNameOrderTrack = request.ChannelRequest[i].GetOrderTrackDefinitionResultByName[j].ToString();
-
-                    // Checking if the "getOrderTrackDefinitionResultByName" has same value as JSON int
-                    if (nameOrderTrack == requestNameOrderTrack && request.ChannelRequest[i].GetOrderTrackDefinitionResult == true)
-                    {
-                        orderTrackDefinitionList.OrderTrackDefinitionName = nameOrderTrack;
-                        if (nodeOrderTrack.SelectSingleNode("TestResult").InnerText.Contains("Failed"))
-                            orderTrackDefinitionList.OrderTrackDefinitionResultOk = false;
-                        else orderTrackDefinitionList.OrderTrackDefinitionResultOk = true;
-
-                        xmlDocResponse.MeasurementChannel[i].OrderTrackDefinition.Add(orderTrackDefinitionList);
-
-                    }
-                }
-            }
-            return xmlDocResponse;
-        }
+       
     }
 }

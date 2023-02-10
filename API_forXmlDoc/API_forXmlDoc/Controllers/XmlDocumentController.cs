@@ -40,10 +40,12 @@ namespace API_forXmlDoc.Controllers
         #endregion
 
         private readonly ILogger<XmlDocumentController> _logger;
+        private readonly GetXmlDocumentValues xmlDocumentValues;
 
-        public XmlDocumentController(ILogger<XmlDocumentController> logger)
+        public XmlDocumentController(ILogger<XmlDocumentController> logger, GetXmlDocumentValues xmlDocumentValues)
         {
             _logger = logger;
+            this.xmlDocumentValues = xmlDocumentValues;
         }
 
         // POST api/<XmlDocumentController>
@@ -54,7 +56,7 @@ namespace API_forXmlDoc.Controllers
             _logger.LogInformation($"ReilhoferRequest called - {request}");
             try
             {
-                var response = GetXmlDocumentValues.GetValues(request, filePath);
+                var response = xmlDocumentValues.GetValues(request, filePath);
                 _logger.LogInformation($"PostTestAsync finished - {response}");
 
                 return Ok(response);
