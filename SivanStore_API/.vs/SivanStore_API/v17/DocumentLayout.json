@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio_projects\\apis\\sivanstore_api\\sivanstore_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio_projects\\apis\\sivanstore_api\\sivanstore_api\\migrations\\20240309231638_initialseedmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\migrations\\20240309231638_initialseedmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio_projects\\apis\\sivanstore_api\\sivanstore_api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio_projects\\apis\\sivanstore_api\\sivanstore_api\\migrations\\20240309230227_addmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\migrations\\20240309230227_addmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio_projects\\apis\\sivanstore_api\\sivanstore_api\\migrations\\20240309224541_addmigrationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\migrations\\20240309224541_addmigrationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio_projects\\apis\\sivanstore_api\\sivanstore_api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio_projects\\apis\\sivanstore_api\\sivanstore_api\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio_projects\\apis\\sivanstore_api\\sivanstore_api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio_projects\\apis\\sivanstore_api\\sivanstore_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,8 +42,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240309231638_InitialSeedMenuItem.cs",
+              "DocumentMoniker": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Migrations\\20240309231638_InitialSeedMenuItem.cs",
+              "RelativeDocumentMoniker": "SivanStore_API\\Migrations\\20240309231638_InitialSeedMenuItem.cs",
+              "ToolTip": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Migrations\\20240309231638_InitialSeedMenuItem.cs",
+              "RelativeToolTip": "SivanStore_API\\Migrations\\20240309231638_InitialSeedMenuItem.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T23:16:38.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SivanStore_API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "SivanStore_API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T23:02:58.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240309230227_addMenuItem.cs",
+              "DocumentMoniker": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Migrations\\20240309230227_addMenuItem.cs",
+              "RelativeDocumentMoniker": "SivanStore_API\\Migrations\\20240309230227_addMenuItem.cs",
+              "ToolTip": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Migrations\\20240309230227_addMenuItem.cs",
+              "RelativeToolTip": "SivanStore_API\\Migrations\\20240309230227_addMenuItem.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBIAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T23:02:27.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "SivanStore_API\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Models\\MenuItem.cs",
+              "RelativeToolTip": "SivanStore_API\\Models\\MenuItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T22:55:06.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240309224541_addMigrationUser.cs",
+              "DocumentMoniker": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Migrations\\20240309224541_addMigrationUser.cs",
+              "RelativeDocumentMoniker": "SivanStore_API\\Migrations\\20240309224541_addMigrationUser.cs",
+              "ToolTip": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Migrations\\20240309224541_addMigrationUser.cs",
+              "RelativeToolTip": "SivanStore_API\\Migrations\\20240309224541_addMigrationUser.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T22:45:41.237Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,36 +113,33 @@
               "RelativeDocumentMoniker": "SivanStore_API\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "SivanStore_API\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAQwGkAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T20:02:49.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-09T22:39:56.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "SivanStore_API\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "SivanStore_API\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T22:39:32.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Program.cs",
               "RelativeDocumentMoniker": "SivanStore_API\\Program.cs",
               "ToolTip": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\Program.cs",
               "RelativeToolTip": "SivanStore_API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T19:05:01.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\appsettings.json",
-              "RelativeDocumentMoniker": "SivanStore_API\\appsettings.json",
-              "ToolTip": "C:\\VisualStudio_projects\\APIs\\SivanStore_API\\SivanStore_API\\appsettings.json",
-              "RelativeToolTip": "SivanStore_API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-07T18:32:06.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-09T22:39:31.359Z"
             }
           ]
         }
