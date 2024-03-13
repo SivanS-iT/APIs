@@ -9,6 +9,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio\\apis\\sivanstore_api\\sivanstore_api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio\\apis\\sivanstore_api\\sivanstore_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio\\apis\\sivanstore_api\\sivanstore_api\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio\\apis\\sivanstore_api\\sivanstore_api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|c:\\visualstudio\\apis\\sivanstore_api\\sivanstore_api\\controller\\menuitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5AA10D-B6C9-476C-9726-63D52946C9F6}|SivanStore_API\\SivanStore_API.csproj|solutionrelative:sivanstore_api\\controller\\menuitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\Models\\Dto\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "SivanStore_API\\Models\\Dto\\LoginRequestDto.cs",
+              "ToolTip": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\Models\\Dto\\LoginRequestDto.cs",
+              "RelativeToolTip": "SivanStore_API\\Models\\Dto\\LoginRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T19:08:54.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "SivanStore_API\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "SivanStore_API\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T19:07:47.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\Program.cs",
+              "RelativeDocumentMoniker": "SivanStore_API\\Program.cs",
+              "ToolTip": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\Program.cs",
+              "RelativeToolTip": "SivanStore_API\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T19:02:52.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuItemController.cs",
+              "DocumentMoniker": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\Controller\\MenuItemController.cs",
+              "RelativeDocumentMoniker": "SivanStore_API\\Controller\\MenuItemController.cs",
+              "ToolTip": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\Controller\\MenuItemController.cs",
+              "RelativeToolTip": "SivanStore_API\\Controller\\MenuItemController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T18:48:40.228Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,9 +109,10 @@
               "RelativeDocumentMoniker": "SivanStore_API\\Controller\\AuthController.cs",
               "ToolTip": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\Controller\\AuthController.cs",
               "RelativeToolTip": "SivanStore_API\\Controller\\AuthController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAABKAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwEEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:33:27.114Z"
+              "WhenOpened": "2024-03-13T18:33:27.114Z",
+              "EditorCaption": ""
             }
           ]
         }
