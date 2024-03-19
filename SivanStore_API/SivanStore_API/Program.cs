@@ -5,8 +5,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using RedMango_API.Services;
+using SivanStore_API.Abstractions;
 using SivanStore_API.Data;
 using SivanStore_API.Models;
+using SivanStore_API.Repositories;
 using SivanStore_API.Services;
 using System.Text;
 
@@ -17,6 +19,7 @@ builder.Services.AddControllers();
 builder.Services.AddSingleton(u => new BlobServiceClient(
     builder.Configuration.GetConnectionString("StorageAccount")));
 builder.Services.AddSingleton<IBlobService, BlobService>();
+builder.Services.AddScoped<IMenuItemsRepository, MenuItemsRepository>();
  
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

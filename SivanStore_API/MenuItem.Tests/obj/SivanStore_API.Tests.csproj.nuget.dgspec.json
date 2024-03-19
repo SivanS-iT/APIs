@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VisualStudio\\APIs\\SivanStore_API\\MenuItem.Tests\\SivanStore_API.Tests.csproj": {}
+    "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\MenuItem.Tests\\SivanStore_API.Tests.csproj": {}
   },
   "projects": {
-    "C:\\VisualStudio\\APIs\\SivanStore_API\\MenuItem.Tests\\SivanStore_API.Tests.csproj": {
+    "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\MenuItem.Tests\\SivanStore_API.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VisualStudio\\APIs\\SivanStore_API\\MenuItem.Tests\\SivanStore_API.Tests.csproj",
+        "projectUniqueName": "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\MenuItem.Tests\\SivanStore_API.Tests.csproj",
         "projectName": "SivanStore_API.Tests",
-        "projectPath": "C:\\VisualStudio\\APIs\\SivanStore_API\\MenuItem.Tests\\SivanStore_API.Tests.csproj",
-        "packagesPath": "C:\\Users\\ivans\\.nuget\\packages\\",
-        "outputPath": "C:\\VisualStudio\\APIs\\SivanStore_API\\MenuItem.Tests\\obj\\",
+        "projectPath": "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\MenuItem.Tests\\SivanStore_API.Tests.csproj",
+        "packagesPath": "C:\\Users\\erikm\\.nuget\\packages\\",
+        "outputPath": "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\MenuItem.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erikm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\SivanStore_API.csproj": {
-                "projectPath": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\SivanStore_API.csproj"
+              "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\SivanStore_API\\SivanStore_API.csproj": {
+                "projectPath": "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\SivanStore_API\\SivanStore_API.csproj"
               }
             }
           }
@@ -38,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -90,21 +85,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\SivanStore_API.csproj": {
+    "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\SivanStore_API\\SivanStore_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\SivanStore_API.csproj",
+        "projectUniqueName": "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\SivanStore_API\\SivanStore_API.csproj",
         "projectName": "SivanStore_API",
-        "projectPath": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\SivanStore_API.csproj",
-        "packagesPath": "C:\\Users\\ivans\\.nuget\\packages\\",
-        "outputPath": "C:\\VisualStudio\\APIs\\SivanStore_API\\SivanStore_API\\obj\\",
+        "projectPath": "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\SivanStore_API\\SivanStore_API.csproj",
+        "packagesPath": "C:\\Users\\erikm\\.nuget\\packages\\",
+        "outputPath": "C:\\Erik Folder\\Software\\Sambol\\GitHub\\APIs\\SivanStore_API\\SivanStore_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erikm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,11 +119,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -189,7 +179,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

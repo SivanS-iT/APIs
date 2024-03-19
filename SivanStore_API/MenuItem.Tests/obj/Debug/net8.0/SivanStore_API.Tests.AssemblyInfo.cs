@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SivanStore_API.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9d41c209ef52cc6c05c6631ceae6c12c7281da0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2aefbd1942f97b49704064115e63fb7516e68c41")]
 [assembly: System.Reflection.AssemblyProductAttribute("SivanStore_API.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SivanStore_API.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
